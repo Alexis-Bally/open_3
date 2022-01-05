@@ -43,10 +43,20 @@
 .wp-block-buttons{
     display: flex;
     justify-content: center;
+    padding-top: 35px;
 }
 
 /************************************************* PAGE HOME *********************************************/ 
-
+.entry-title{
+    display: none;
+}
+.home_title-infos{
+    background-image: url(img/bg_home_infos.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .home_title{
     display: flex;
     justify-content: center;
@@ -64,10 +74,20 @@
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
+    padding-top: 65px;
+   
 
     h3 strong{
         font-weight: 600;
     }
+    &_text{
+        padding-bottom: 45px;
+    }
+}
+/* texte infos margin*/ 
+.has-medium-font-size{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .home_resume{
