@@ -913,8 +913,20 @@ textarea {
 
 /* Page
 --------------------------------------------- */
+<<<<<<< HEAD
 .wp-block-group__inner-container .has-medium-font-size {
   padding-left: 120px;
+=======
+.wp-block-group__inner-container h3 {
+  padding-left: 1000px;
+  color: red;
+}
+
+.wp-block-image .img {
+  width: 50px;
+  height: 50px;
+  color: blue;
+>>>>>>> 5ac39bb960d5e73ebf09d1d9ef5cff69851dad0b
 }
 
 /*# sourceMappingURL=style.css.map */
