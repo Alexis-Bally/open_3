@@ -1,11 +1,11 @@
-/************************************************* PAGE HACKATHON *********************************************/ 
-
-.hack_text{
- 
-    padding-top: 50px;
-    
+.hack_group_text {
     display: flex;
     justify-content: center;
+}
+
+.hack_text{
+    padding-top: 50px;
+    max-width: 1000px;
 }
 .hack_text2 {
     display: flex;
