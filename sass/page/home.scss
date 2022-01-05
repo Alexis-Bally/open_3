@@ -70,4 +70,14 @@
 .home_resume{
     background-image: url(img/bg_home_resume.jpg);
     object-fit: cover;
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+        max-width: 400px;
+    }
+    img{
+        
+    }
 }

@@ -985,5 +985,12 @@ textarea {
   background-image: url(img/bg_home_resume.jpg);
   object-fit: cover;
 }
+.home_resume h2 {
+  color: white;
+}
+.home_resume p {
+  color: white;
+  max-width: 400px;
+}
 
 /*# sourceMappingURL=style.css.map */
