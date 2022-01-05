@@ -1001,13 +1001,19 @@ textarea {
 }
 
 .home_questions {
-  height: 669px;
+  background-image: url(img/bg_home_questions.jpg);
+  width: 100%;
+  height: 88vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .home_questions h2 {
   padding-left: 20vw;
   font-weight: 600;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin: 0;
 }
 .home_questions_texte {
   margin-left: 27vw;
