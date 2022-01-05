@@ -914,4 +914,34 @@ textarea {
 /* Page
 --------------------------------------------- */
 
+/* buttons */
+.wp-block-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/************************************************* PAGE HOME *********************************************/
+.home_title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.home_title h1 {
+  font-weight: 600;
+}
+.home_title p {
+  max-width: 600px;
+}
+
+.home_infos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.home_resume {
+  background-image: url(img/bg_home_resume.jpg);
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
