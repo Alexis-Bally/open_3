@@ -993,4 +993,24 @@ textarea {
   max-width: 400px;
 }
 
+.home_questions {
+  height: 669px;
+}
+.home_questions h2 {
+  padding-left: 20vw;
+  font-weight: 600;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.home_questions_texte {
+  margin-left: 27vw;
+  max-width: 800px;
+}
+.home_questions_texte p {
+  padding-left: 8%;
+}
+.home_questions_texte h3 strong {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
