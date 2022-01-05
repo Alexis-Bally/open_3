@@ -26,7 +26,7 @@
     height: 120px;
     object-fit: cover;
 }
-/* img et texte header*/ 
+/* logo open3*/ 
 .wp-image-69{
     width: 345px;
     height: 115px;
@@ -49,6 +49,16 @@
 /************************************************* PAGE HOME *********************************************/ 
 .entry-title{
     display: none;
+    margin: 0;
+}
+.entry-content{
+    margin: 0;
+}
+.home_header_text{
+    margin-top: 320px;
+}
+.has-text-align-center{
+    margin-bottom: 10px;
 }
 .home_title-infos{
     background-image: url(img/bg_home_infos.jpg);
@@ -56,6 +66,7 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .home_title{
     display: flex;
@@ -108,13 +119,19 @@
 }
 
 .home_questions {
-    height: 669px;
+    background-image: url(img/bg_home_questions.jpg);
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     h2 {
         padding-left: 20vw;
         font-weight: 600;
-        margin-top: 150px;
-        margin-bottom: 50px;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        margin: 0;
     }
 
     &_texte {
@@ -130,7 +147,10 @@
         }
     }
 }
-
+.home_questions_text{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
 
 .home_conf{
     display: flex;
@@ -152,6 +172,9 @@
         padding-right: 14vw;
     }
 }
+.home_lieu_title{
+    margin-bottom: 15px;
+}
 .wp-block-media-text .wp-block-media-text__content {
     padding: 0 3vw;
 }
@@ -163,4 +186,27 @@
         margin-left: 25vw;
         max-width: 45%; 
     }
+}
+
+/************************************************* PAGE HACKATHON *********************************************/ 
+
+.hack_text{
+ 
+    padding-top: 50px;
+    max-width: 1000px;
+    margin-left: 22vw;
+}
+.hack_text2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.button_inscription {
+
+    padding-top: 25px;
+    a{
+        width: 220px;
+        height: 55px;
+    }
+    
 }

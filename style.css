@@ -370,6 +370,7 @@ template {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
 }
 
 html {
@@ -620,37 +621,36 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  height: 80px;
+  background-color: #1D1D39;
+  align-items: center;
+}
+.main-navigation .custom-logo-link img {
+  width: 60px;
+  height: 46px;
+  margin-left: 220px;
 }
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
-  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  max-width: 30%;
+  margin-right: 80px;
+  font-weight: 300;
 }
-.main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
-  position: absolute;
-  top: 100%;
-  left: -999em;
-  z-index: 99999;
-}
-.main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
-}
-.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
   display: block;
   left: auto;
 }
-.main-navigation ul ul a {
-  width: 200px;
-}
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-  left: auto;
+.main-navigation ul a {
+  padding-left: 25px;
+  color: white;
+  font-size: 20px;
 }
 .main-navigation li {
   position: relative;
@@ -942,7 +942,7 @@ textarea {
   object-fit: cover;
 }
 
-/* img et texte header*/
+/* logo open3*/
 .wp-image-69 {
   width: 345px;
   height: 115px;
@@ -966,6 +966,19 @@ textarea {
 /************************************************* PAGE HOME *********************************************/
 .entry-title {
   display: none;
+  margin: 0;
+}
+
+.entry-content {
+  margin: 0;
+}
+
+.home_header_text {
+  margin-top: 320px;
+}
+
+.has-text-align-center {
+  margin-bottom: 10px;
 }
 
 .home_title-infos {
@@ -974,6 +987,7 @@ textarea {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .home_title {
@@ -1024,13 +1038,19 @@ textarea {
 }
 
 .home_questions {
-  height: 669px;
+  background-image: url(img/bg_home_questions.jpg);
+  width: 100%;
+  height: 88vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .home_questions h2 {
   padding-left: 20vw;
   font-weight: 600;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin: 0;
 }
 .home_questions_texte {
   margin-left: 27vw;
@@ -1041,6 +1061,11 @@ textarea {
 }
 .home_questions_texte h3 strong {
   font-weight: 600;
+}
+
+.home_questions_text {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .home_conf {
@@ -1063,6 +1088,10 @@ textarea {
   padding-right: 14vw;
 }
 
+.home_lieu_title {
+  margin-bottom: 15px;
+}
+
 .wp-block-media-text .wp-block-media-text__content {
   padding: 0 3vw;
 }
@@ -1073,6 +1102,27 @@ textarea {
 .home_iim p {
   margin-left: 25vw;
   max-width: 45%;
+}
+
+/************************************************* PAGE HACKATHON *********************************************/
+.hack_text {
+  padding-top: 50px;
+  max-width: 1000px;
+  margin-left: 22vw;
+}
+
+.hack_text2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.button_inscription {
+  padding-top: 25px;
+}
+.button_inscription a {
+  width: 220px;
+  height: 55px;
 }
 
 /*# sourceMappingURL=style.css.map */
