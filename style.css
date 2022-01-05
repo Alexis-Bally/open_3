@@ -1107,8 +1107,8 @@ textarea {
 /************************************************* PAGE HACKATHON *********************************************/
 .hack_text {
   padding-top: 50px;
-  max-width: 1000px;
-  margin-left: 22vw;
+  display: flex;
+  justify-content: center;
 }
 
 .hack_text2 {
