@@ -27,11 +27,11 @@
 
 	<header id="masthead" class="site-header">
 		<nav id="site-navigation" class="main-navigation">
-			<div class="site-branding">
-				<?php
-				the_custom_logo();
-				?>
-			</div><!-- .site-branding -->
+		<div class="site-branding">
+			<?php
+			the_custom_logo();
+			?>
+		</div><!-- .site-branding -->
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'open-3' ); ?></button>
 			<?php
 			wp_nav_menu(

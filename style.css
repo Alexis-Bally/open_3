@@ -370,6 +370,7 @@ template {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
 }
 
 html {
@@ -621,24 +622,34 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: #1D1D39;
+  align-items: center;
+}
+.main-navigation .custom-logo-link img {
+  width: 60px;
+  height: 46px;
+  margin-left: 220px;
 }
 .main-navigation ul {
   list-style: none;
   margin: 0;
-  padding-left: 0;
-  width: 30%;
   display: flex;
   justify-content: space-around;
+  max-width: 30%;
+  margin-right: 80px;
+  font-weight: 300;
 }
 .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
   display: block;
   left: auto;
 }
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-  left: auto;
+.main-navigation ul a {
+  padding-left: 25px;
+  color: white;
+  font-size: 20px;
 }
 .main-navigation li {
   position: relative;
@@ -934,7 +945,7 @@ textarea {
   object-fit: cover;
 }
 
-/* img et texte header*/
+/* logo open3*/
 .wp-image-69 {
   width: 345px;
   height: 115px;
@@ -952,9 +963,36 @@ textarea {
 .wp-block-buttons {
   display: flex;
   justify-content: center;
+  padding-top: 35px;
 }
 
 /************************************************* PAGE HOME *********************************************/
+.entry-title {
+  display: none;
+  margin: 0;
+}
+
+.entry-content {
+  margin: 0;
+}
+
+.home_header_text {
+  margin-top: 320px;
+}
+
+.has-text-align-center {
+  margin-bottom: 10px;
+}
+
+.home_title-infos {
+  background-image: url(img/bg_home_infos.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .home_title {
   display: flex;
   justify-content: center;
@@ -971,9 +1009,19 @@ textarea {
   display: flex;
   justify-content: center;
   padding-bottom: 100px;
+  padding-top: 65px;
 }
 .home_infos h3 strong {
   font-weight: 600;
+}
+.home_infos_text {
+  padding-bottom: 45px;
+}
+
+/* texte infos margin*/
+.has-medium-font-size {
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .home_resume {
@@ -1018,6 +1066,11 @@ textarea {
   font-weight: 600;
 }
 
+.home_questions_text {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 .home_conf {
   display: flex;
   justify-content: center;
@@ -1038,6 +1091,10 @@ textarea {
   padding-right: 14vw;
 }
 
+.home_lieu_title {
+  margin-bottom: 15px;
+}
+
 .wp-block-media-text .wp-block-media-text__content {
   padding: 0 3vw;
 }
@@ -1048,6 +1105,30 @@ textarea {
 .home_iim p {
   margin-left: 25vw;
   max-width: 45%;
+}
+
+.hack_group_text {
+  display: flex;
+  justify-content: center;
+}
+
+.hack_text {
+  padding-top: 50px;
+  max-width: 1000px;
+}
+
+.hack_text2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.button_inscription {
+  padding-top: 25px;
+}
+.button_inscription a {
+  width: 220px;
+  height: 55px;
 }
 
 /*# sourceMappingURL=style.css.map */
