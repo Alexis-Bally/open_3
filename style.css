@@ -980,10 +980,17 @@ textarea {
   justify-content: center;
   padding-bottom: 100px;
 }
+.home_infos h3 strong {
+  font-weight: 600;
+}
 
 .home_resume {
   background-image: url(img/bg_home_resume.jpg);
-  object-fit: cover;
+  width: 100%;
+  height: 762px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
 }
 .home_resume h2 {
   color: white;
@@ -1011,6 +1018,38 @@ textarea {
 }
 .home_questions_texte h3 strong {
   font-weight: 600;
+}
+
+.home_conf {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.home_hack {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.home_lieu {
+  display: flex;
+  margin-left: 20vw;
+}
+.home_lieu p {
+  padding-right: 14vw;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+  padding: 0 3vw;
+}
+
+.home_iim {
+  padding-top: 60px;
+}
+.home_iim p {
+  margin-left: 25vw;
+  max-width: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */
