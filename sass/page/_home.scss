@@ -118,6 +118,10 @@
     }
 }
 
+.wp-block-buttons :nth-child(1) a {
+    color: white;
+}
+
 .home_questions {
     background-image: url(img/bg_home_questions.jpg);
     width: 100%;

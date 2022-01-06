@@ -1040,6 +1040,10 @@ textarea {
   max-width: 400px;
 }
 
+.wp-block-buttons :nth-child(1) a {
+  color: white;
+}
+
 .home_questions {
   background-image: url(img/bg_home_questions.jpg);
   width: 100%;
@@ -1129,6 +1133,69 @@ textarea {
 .button_inscription a {
   width: 220px;
   height: 55px;
+}
+
+.wp-block-media-text {
+  display: flex;
+}
+
+.conf_content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  max-width: 1200px;
+}
+
+.wp-block-media-text__content :nth-child(1) {
+  margin-bottom: 15px;
+  color: #EA581C;
+  font-weight: 600;
+}
+
+.conf_speakers {
+  max-width: 1200px;
+  margin: auto;
+}
+.conf_speakers .wp-block-group__inner-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.conf_speakers_first-line {
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+}
+.conf_speakers_first-line .wp-block-group__inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.conf_speakers_first-line .wp-block-group__inner-container figure {
+  width: 117px;
+  height: 120px;
+}
+
+.wp-block-media-text .alignwide .is-stacked-on-mobile {
+  display: flex;
+}
+
+.conf_speakers_second-line {
+  width: 100%;
+  margin-bottom: 3vh;
+}
+.conf_speakers_second-line .wp-block-group__inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.conf_speakers_second-line .wp-block-group__inner-container figure {
+  width: 117px;
+  height: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */
