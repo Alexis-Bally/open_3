@@ -632,7 +632,6 @@ textarea {
 .main-navigation .custom-logo-link img {
   width: 60px;
   height: 46px;
-  margin-left: 220px;
 }
 .main-navigation ul {
   list-style: none;
@@ -660,7 +659,9 @@ textarea {
   text-decoration: none;
 }
 .site-branding {
-  width: 100px;
+  width: 60px;
+  height: 46px;
+  margin-left: 220px;
 }
 
 /* Small menu. */
@@ -953,6 +954,13 @@ textarea {
   object-fit: cover;
 }
 
+/*conf data*/
+.wp-block-media-text__media .wp-image-146 {
+  width: 393px;
+  height: 253px;
+  object-fit: cover;
+}
+
 /* logo open3*/
 .wp-image-69 {
   width: 345px;
@@ -1046,22 +1054,34 @@ textarea {
   max-width: 400px;
 }
 
+.wp-block-buttons :nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .wp-block-buttons :nth-child(1) a {
   color: white;
+  margin-bottom: 35px;
+  font-weight: 600;
 }
 
-.home_questions {
-  background-image: url(img/bg_home_questions.jpg);
-  width: 100%;
-  height: 60vw;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+.home_grande_ligne {
+  margin-top: 60px;
 }
+
+.wp-block-image .aligncenter {
+  display: flex;
+}
+
+.home_petite_ligne figure {
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
 .home_questions h2 {
   padding-left: 20vw;
   font-weight: 600;
-  padding-top: 150px;
+  padding-top: 10px;
   padding-bottom: 50px;
   margin: 0;
 }
@@ -1117,6 +1137,10 @@ textarea {
   max-width: 45%;
 }
 
+.lien_iim figure {
+  justify-content: center;
+}
+
 #nf-field-9-container {
   margin-left: 2.5641025641%;
 }
@@ -1145,16 +1169,50 @@ textarea {
   height: 55px;
 }
 
+.hack_bg_white {
+  background-image: url(img/bg_conf_white_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 .wp-block-media-text {
   display: flex;
+}
+
+.conf_bg_blue {
+  background-image: url(img/bg_conf_blue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: #fff;
+}
+
+.conf_bg_blue_2 {
+  background-color: #1D1D39;
+  color: #fff;
+}
+
+.conf_bg_white_1 {
+  background-image: url(img/bg_conf_white_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.conf_bg_white_2 {
+  background-image: url(img/bg_conf_white_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .conf_content {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
   max-width: 1200px;
 }
 
@@ -1173,6 +1231,10 @@ textarea {
   align-items: center;
   flex-direction: column;
   width: 100%;
+}
+
+div .conf_speakers_solo_line {
+  margin-bottom: 2vh;
 }
 
 .conf_speakers_first-line {
