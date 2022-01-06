@@ -1,0 +1,109 @@
+#nf-form-title-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#nf-field-9-container{
+    margin-left: 2.564102564102564%;
+}
+
+div nf-section .nf-before-form-content{
+    display: none;
+}
+
+div form :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div .nf-field-element :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+
+#nf-label-class-field-5-0{
+    padding-right: 25px;
+}
+
+.nf-label-class-field-5-1 {
+    padding-left: 15px;
+}
+
+#nf-label-class-field-6-0{
+    padding-right: 25px;
+}
+.nf-label-class-field-6-1{
+    padding-left: 15px;
+}
+/* etoile je m'inscrit */ 
+#nf-label-field-5{
+    display: flex;
+    flex-direction: row;
+}
+/* etoile je suis... */ 
+#nf-label-field-6{
+    display: flex;
+    flex-direction: row;
+    border-radius: 35px;
+    width: 531px;
+    height: 60px;
+}
+/* section nom */
+#nf-field-7{
+    border-radius: 35px;
+    width: 531px;
+    height: 60px;
+}
+/* carre rouge*/
+.nf-error.field-wrap .nf-field-element:after{
+    left: 550px;
+}
+/* etoile + nom*/
+#nf-label-field-7{
+    display: flex;
+    flex-direction: row;
+}
+/*section prenom*/
+#nf-field-8{
+    border-radius: 35px;
+    width: 531px;
+    height: 60px;
+}
+/* etoile + prenom*/
+#nf-label-field-8{
+    display: flex;
+    flex-direction: row;
+}
+/*section mail*/
+#nf-field-9{
+    border-radius: 35px;
+    width: 531px;
+    height: 60px;
+}
+/* etoile + mail*/
+#nf-label-field-9{
+    display: flex;
+    flex-direction: row;
+}
+/*section numero*/
+#nf-field-10{
+    border-radius: 35px;
+    width: 531px;
+    height: 60px;
+}
+/* etoile + numero*/
+#nf-label-field-10{
+    display: flex;
+    flex-direction: row;
+ 
+}
+/* button*/
+#nf-field-11{
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    width: 168px;
+    height: 59px;
+}
