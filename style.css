@@ -1196,9 +1196,6 @@ div .nf-field-element :nth-child(1) {
 #nf-label-field-6 {
   display: flex;
   flex-direction: row;
-  border-radius: 35px;
-  width: 531px;
-  height: 60px;
 }
 
 /* section nom */
@@ -1328,6 +1325,10 @@ div .nf-field-element :nth-child(1) {
 .conf_speakers_second-line .wp-block-group__inner-container figure {
   width: 117px;
   height: 120px;
+}
+
+.nf-form-fields-required {
+  display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */
