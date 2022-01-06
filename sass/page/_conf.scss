@@ -2,12 +2,39 @@
     display: flex;
 }
 
+.conf_bg_blue {
+    background-image: url(img/bg_conf_blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #fff;
+}
+
+.conf_bg_blue_2 {
+    background-color: #1D1D39;
+    color: #fff;
+}
+
+.conf_bg_white_1 {
+    background-image: url(img/bg_conf_white_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.conf_bg_white_2 {
+    background-image: url(img/bg_conf_white_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 .conf_content {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
     max-width: 1200px;
 }
 
@@ -27,6 +54,10 @@
         flex-direction: column;
         width: 100%;
     }
+}
+
+div .conf_speakers_solo_line {
+    margin-bottom: 2vh;
 }
 
 .conf_speakers_first-line {
