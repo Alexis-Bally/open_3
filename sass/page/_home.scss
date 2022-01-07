@@ -41,7 +41,6 @@
 }
 /* logo open3*/ 
 .wp-image-69{
-    width: 345px;
     height: 115px;
     object-fit: cover;
     
@@ -202,8 +201,11 @@
         padding-right: 14vw;
     }
 }
-.home_lieu_title{
+.wp-block-media-text__content .home_lieu_title{
     margin-bottom: 15px;
+    strong {
+        color: #000;
+    }
 }
 .wp-block-media-text .wp-block-media-text__content {
     padding: 0 3vw;
