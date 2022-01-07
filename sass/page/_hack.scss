@@ -21,10 +21,23 @@
     }
     
 }
-
 .hack_bg_white {
-    background-image: url(img/bg_conf_white_1.jpg);
+    background-image: url(img/bg_hack_white.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
+}
+.hack_bg_blue{
+    background-color: #1D1D39;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.hack_bg_blue h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
 }

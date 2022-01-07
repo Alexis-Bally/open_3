@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
+  
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 60px;
 }
 
 #nf-field-9-container{
@@ -11,11 +16,17 @@
 div nf-section .nf-before-form-content{
     display: none;
 }
+#nf-form-2-cont{
+    background-image: url(img/bg_inscription.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 div form :nth-child(1) {
     display: flex;
     flex-direction: column;
-    background: #1D1D39;
+ 
     
 }
 
@@ -44,12 +55,14 @@ div .nf-field-element :nth-child(1) {
     display: flex;
     flex-direction: row;
     color: white;
+    padding-left: 30px;
 }
 /* etoile je suis... */ 
 #nf-label-field-14{
     display: flex;
     flex-direction: row;
     color: white;
+    padding-left: 30px;
 }
 /* section nom */
 #nf-field-8{
@@ -169,9 +182,6 @@ div .nf-field-element :nth-child(1) {
     height: 59px;
     background: #EA581C;
 }
-#nf-field-17-wrap{
-    padding-left: 190px;
-}
 
 .nf-form-fields-required{
     display: none !important;
@@ -247,4 +257,29 @@ div .nf-field-element :nth-child(1) {
 
 #nf-field-13-wrap{
     padding-left: 18px;
+}
+
+#nf-field-13-container{
+    width: 80%;
+}
+#nf-field-14-container{
+    width: 80%;
+}
+#nf-field-8-container{
+    width: 80%;
+}
+#nf-field-9-container{
+    width: 80%;
+}
+#nf-field-10-container{
+    width: 80%;
+}
+#nf-field-18-container{
+    width: 80%;
+}
+#nf-field-17-container{
+    width: 80%;
+}
+.nf-form-content :nth-child(1){
+    align-items: center;
 }

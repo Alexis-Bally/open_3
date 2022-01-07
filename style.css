@@ -651,8 +651,7 @@ textarea {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  max-width: 30%;
-  margin-right: 80px;
+  margin-right: 100%;
   font-weight: 300;
 }
 .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
@@ -846,6 +845,10 @@ textarea {
 
 /* Footer
 --------------------------------------------- */
+.site-footer {
+  border-top: 2px solid #EA581C;
+}
+
 .footer_inner-container {
   display: flex;
   align-items: center;
@@ -1196,7 +1199,7 @@ textarea {
   background-repeat: no-repeat;
   padding-top: 60px;
 }
-.home_resume h2 {
+.home_resume .wp-block-media-text__content h2 {
   color: white;
 }
 .home_resume p {
@@ -1213,6 +1216,7 @@ textarea {
   color: white;
   margin-bottom: 35px;
   font-weight: 600;
+  background: linear-gradient(140deg, #EA581D, #F8A815);
 }
 
 .home_grande_ligne {
@@ -1281,6 +1285,7 @@ textarea {
 
 .home_iim {
   padding-top: 60px;
+  margin-bottom: 40px;
 }
 .home_iim p {
   margin-left: 25vw;
@@ -1316,10 +1321,26 @@ textarea {
 }
 
 .hack_bg_white {
-  background-image: url(img/bg_conf_white_1.jpg);
+  background-image: url(img/bg_hack_white.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
+}
+
+.hack_bg_blue {
+  background-color: #1D1D39;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.hack_bg_blue h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .wp-block-media-text {
@@ -1334,9 +1355,26 @@ textarea {
   color: #fff;
 }
 
+/* backround planning */
 .conf_bg_blue_2 {
   background-color: #1D1D39;
   color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+/* Titre programme */
+.conf_bg_blue_2 h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.wp-image-173 {
+  margin-bottom: 30px;
 }
 
 .conf_bg_white_1 {
@@ -1420,6 +1458,10 @@ div .conf_speakers_solo_line {
   display: flex;
   justify-content: center;
   padding-top: 60px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 60px;
 }
 
 #nf-field-9-container {
@@ -1430,10 +1472,16 @@ div nf-section .nf-before-form-content {
   display: none;
 }
 
+#nf-form-2-cont {
+  background-image: url(img/bg_inscription.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 div form :nth-child(1) {
   display: flex;
   flex-direction: column;
-  background: #1D1D39;
 }
 
 div .nf-field-element :nth-child(1) {
@@ -1462,6 +1510,7 @@ div .nf-field-element :nth-child(1) {
   display: flex;
   flex-direction: row;
   color: white;
+  padding-left: 30px;
 }
 
 /* etoile je suis... */
@@ -1469,6 +1518,7 @@ div .nf-field-element :nth-child(1) {
   display: flex;
   flex-direction: row;
   color: white;
+  padding-left: 30px;
 }
 
 /* section nom */
@@ -1607,10 +1657,6 @@ div .nf-field-element :nth-child(1) {
   background: #EA581C;
 }
 
-#nf-field-17-wrap {
-  padding-left: 190px;
-}
-
 .nf-form-fields-required {
   display: none !important;
 }
@@ -1692,6 +1738,38 @@ div .nf-field-element :nth-child(1) {
 
 #nf-field-13-wrap {
   padding-left: 18px;
+}
+
+#nf-field-13-container {
+  width: 80%;
+}
+
+#nf-field-14-container {
+  width: 80%;
+}
+
+#nf-field-8-container {
+  width: 80%;
+}
+
+#nf-field-9-container {
+  width: 80%;
+}
+
+#nf-field-10-container {
+  width: 80%;
+}
+
+#nf-field-18-container {
+  width: 80%;
+}
+
+#nf-field-17-container {
+  width: 80%;
+}
+
+.nf-form-content :nth-child(1) {
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,12 +9,25 @@
     background-position: bottom;
     color: #fff;
 }
-
+/* backround planning */
 .conf_bg_blue_2 {
     background-color: #1D1D39;
     color: #fff;
+    display: flex;
+    justify-content: center;
 }
-
+/* Titre programme */
+.conf_bg_blue_2 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.wp-image-173{
+    margin-bottom: 30px;
+}
 .conf_bg_white_1 {
     background-image: url(img/bg_conf_white_1.jpg);
     background-size: cover;
@@ -98,3 +111,4 @@ div .conf_speakers_solo_line {
         }
     }
 }
+
