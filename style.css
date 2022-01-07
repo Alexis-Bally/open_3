@@ -1497,11 +1497,11 @@ div .nf-field-element :nth-child(1) {
   padding-left: 15px;
 }
 
-#nf-label-class-field-6-0 {
+#nf-label-class-field-14-0 {
   padding-right: 25px;
 }
 
-.nf-label-class-field-6-1 {
+.nf-label-class-field-14-1 {
   padding-left: 15px;
 }
 
@@ -1514,47 +1514,47 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* carre rouge*/
-#nf-field-5-wrap .nf-field-element:after {
+#nf-field-13-wrap .nf-field-element:after {
   left: 600px;
   top: 7px;
 }
 
-#nf-field-6-wrap .nf-field-element:after {
+#nf-field-14-wrap .nf-field-element:after {
   left: 600px;
   top: 7px;
 }
 
 /* style du round */
-.listradio-wrap .nf-field-element #nf-label-class-field-5-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-0:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-5-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-1:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-0:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-1:before {
   background: #EA581C;
 }
 
 /* cercle style */
-.listradio-wrap .nf-field-element #nf-label-class-field-5-0:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-0:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-5-1:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-1:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-0:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-0:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-1:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-1:after {
   border-color: #EA581C;
 }
 
@@ -1601,7 +1601,7 @@ input[type=button] {
 }
 
 /* conf */
-#nf-label-class-field-5-0 {
+#nf-label-class-field-13-0 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1611,34 +1611,34 @@ input[type=button] {
   padding-top: 18px;
 }
 
-#nf-field-5-wrap .nf-field-element label:after {
+#nf-field-13-wrap .nf-field-element label:after {
   top: 1.05em;
   left: 24px;
 }
 
 /* petit round quand on selectionne*/
-.listradio-wrap .nf-field-element #nf-label-class-field-5-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-0:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-5-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-1:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-0:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-1:before {
   left: 28px;
   top: 1.26em;
 }
 
 /* hacka*/
-#nf-label-class-field-5-1 {
+#nf-label-class-field-13-1 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1649,7 +1649,7 @@ input[type=button] {
 }
 
 /*étudiant*/
-#nf-label-class-field-6-0 {
+#nf-label-class-field-14-0 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1660,7 +1660,7 @@ input[type=button] {
 }
 
 /*professionel*/
-#nf-label-class-field-6-1 {
+#nf-label-class-field-14-1 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1670,12 +1670,12 @@ input[type=button] {
   padding-top: 18px;
 }
 
-#nf-field-6-wrap .nf-field-element label:after {
+#nf-field-14-wrap .nf-field-element label:after {
   top: 1.05em;
   left: 24px;
 }
 
-#nf-field-5-wrap {
+#nf-field-13-wrap {
   padding-left: 18px;
 }
 
