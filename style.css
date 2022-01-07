@@ -1116,7 +1116,6 @@ textarea {
 
 /* logo open3*/
 .wp-image-69 {
-  width: 345px;
   height: 115px;
   object-fit: cover;
 }
@@ -1275,8 +1274,11 @@ textarea {
   padding-right: 14vw;
 }
 
-.home_lieu_title {
+.wp-block-media-text__content .home_lieu_title {
   margin-bottom: 15px;
+}
+.wp-block-media-text__content .home_lieu_title strong {
+  color: #000;
 }
 
 .wp-block-media-text .wp-block-media-text__content {
@@ -1304,12 +1306,6 @@ textarea {
 .hack_text {
   padding-top: 50px;
   max-width: 1000px;
-}
-
-.hack_text2 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
 }
 
 .button_inscription {
@@ -1398,6 +1394,10 @@ textarea {
   padding-top: 50px;
   padding-bottom: 40px;
   max-width: 1200px;
+}
+
+.conf_bg_blue .wp-block-media-text__content :nth-child(1) {
+  color: #B8DBD9;
 }
 
 .wp-block-media-text__content :nth-child(1) {
