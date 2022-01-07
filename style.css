@@ -1069,7 +1069,7 @@ textarea {
   margin-top: 60px;
 }
 
-.wp-block-image .aligncenter {
+.home_petite_ligne .aligncenter {
   display: flex;
 }
 
@@ -1135,10 +1135,6 @@ textarea {
 .home_iim p {
   margin-left: 25vw;
   max-width: 45%;
-}
-
-.lien_iim figure {
-  justify-content: center;
 }
 
 #nf-field-9-container {
@@ -1300,24 +1296,24 @@ div .nf-field-element :nth-child(1) {
   flex-direction: row;
 }
 
-#nf-label-class-field-5-0 {
+#nf-label-class-field-13-0 {
   padding-right: 25px;
 }
 
-.nf-label-class-field-5-1 {
+.nf-label-class-field-13-1 {
   padding-left: 15px;
 }
 
-#nf-label-class-field-6-0 {
+#nf-label-class-field-14-0 {
   padding-right: 25px;
 }
 
-.nf-label-class-field-6-1 {
+.nf-label-class-field-14-1 {
   padding-left: 15px;
 }
 
 /* etoile je m'inscrit */
-#nf-label-field-5 {
+#nf-label-field-13 {
   display: flex;
   flex-direction: row;
   color: white;
@@ -1325,7 +1321,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* etoile je suis... */
-#nf-label-field-6 {
+#nf-label-field-14 {
   display: flex;
   flex-direction: row;
   color: white;
@@ -1333,7 +1329,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* section nom */
-#nf-field-7 {
+#nf-field-8 {
   border-radius: 35px;
   width: 531px;
   height: 60px;
@@ -1341,57 +1337,57 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* carre rouge*/
-#nf-field-5-wrap .nf-field-element:after {
+#nf-field-13-wrap .nf-field-element:after {
   left: 600px;
   top: 7px;
 }
 
-#nf-field-6-wrap .nf-field-element:after {
+#nf-field-14-wrap .nf-field-element:after {
   left: 600px;
   top: 7px;
 }
 
 /* style du round */
-.listradio-wrap .nf-field-element #nf-label-class-field-5-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-0:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-5-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-1:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-0:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-1:before {
   background: #EA581C;
 }
 
 /* cercle style */
-.listradio-wrap .nf-field-element #nf-label-class-field-5-0:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-0:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-5-1:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-1:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-0:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-0:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-1:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-1:after {
   border-color: #EA581C;
 }
 
 /* validation*/
-#nf-field-7-wrap .nf-field-element:after {
+#nf-field-8-wrap .nf-field-element:after {
   left: 560px;
   top: 7px;
 }
 
-#nf-field-8-wrap .nf-field-element:after {
+#nf-field-18-wrap .nf-field-element:after {
   left: 560px;
   top: 7px;
 }
@@ -1407,14 +1403,14 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* etoile + nom*/
-#nf-label-field-7 {
+#nf-label-field-8 {
   display: flex;
   flex-direction: row;
   color: white;
 }
 
 /*section prenom*/
-#nf-field-8 {
+#nf-field-18 {
   border-radius: 35px;
   width: 531px;
   height: 60px;
@@ -1422,7 +1418,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* etoile + prenom*/
-#nf-label-field-8 {
+#nf-label-field-18 {
   display: flex;
   flex-direction: row;
   color: white;
@@ -1459,7 +1455,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* button*/
-#nf-field-11 {
+#nf-field-17 {
   display: flex;
   justify-content: center;
   border-radius: 35px;
@@ -1473,7 +1469,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* conf */
-#nf-label-class-field-5-0 {
+#nf-label-class-field-13-0 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1483,34 +1479,34 @@ div .nf-field-element :nth-child(1) {
   padding-top: 18px;
 }
 
-#nf-field-5-wrap .nf-field-element label:after {
+#nf-field-13-wrap .nf-field-element label:after {
   top: 1.05em;
   left: 24px;
 }
 
 /* petit round quand on selectionne*/
-.listradio-wrap .nf-field-element #nf-label-class-field-5-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-0:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-5-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-13-1:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-0:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-6-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-14-1:before {
   left: 28px;
   top: 1.26em;
 }
 
 /* hacka*/
-#nf-label-class-field-5-1 {
+#nf-label-class-field-13-1 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1521,7 +1517,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /*étudiant*/
-#nf-label-class-field-6-0 {
+#nf-label-class-field-14-0 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1532,7 +1528,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /*professionel*/
-#nf-label-class-field-6-1 {
+#nf-label-class-field-14-1 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1542,12 +1538,12 @@ div .nf-field-element :nth-child(1) {
   padding-top: 18px;
 }
 
-#nf-field-6-wrap .nf-field-element label:after {
+#nf-field-14-wrap .nf-field-element label:after {
   top: 1.05em;
   left: 24px;
 }
 
-#nf-field-5-wrap {
+#nf-field-13-wrap {
   padding-left: 18px;
 }
 
