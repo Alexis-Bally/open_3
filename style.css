@@ -1300,7 +1300,7 @@ div .conf_speakers_solo_line {
   height: 120px;
 }
 
-#nf-form-title-2 {
+html body .nf-form-title {
   display: flex;
   justify-content: center;
   padding-top: 60px;
@@ -1335,98 +1335,82 @@ div .nf-field-element :nth-child(1) {
   flex-direction: row;
 }
 
-#nf-label-class-field-13-0 {
+#nf-label-class-field-7-0 {
   padding-right: 25px;
 }
 
-.nf-label-class-field-13-1 {
+.nf-label-class-field-7-1 {
   padding-left: 15px;
 }
 
-#nf-label-class-field-14-0 {
+#nf-label-class-field-6-0 {
   padding-right: 25px;
 }
 
-.nf-label-class-field-14-1 {
+.nf-label-class-field-6-1 {
   padding-left: 15px;
-}
-
-/* etoile je m'inscrit */
-#nf-label-field-13 {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  padding-left: 30px;
-}
-
-/* etoile je suis... */
-#nf-label-field-14 {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  padding-left: 30px;
 }
 
 /* section nom */
-#nf-field-8 {
-  border-radius: 35px;
-  width: 531px;
-  height: 60px;
-  border-color: white;
+.ninja-forms-field {
+  border-radius: 35px !important;
+  width: 531px !important;
+  height: 60px !important;
+  border-color: white !important;
 }
 
 /* carre rouge*/
-#nf-field-13-wrap .nf-field-element:after {
+#nf-field-5-wrap .nf-field-element:after {
   left: 600px;
   top: 7px;
 }
 
-#nf-field-14-wrap .nf-field-element:after {
+#nf-field-6-wrap .nf-field-element:after {
   left: 600px;
   top: 7px;
 }
 
 /* style du round */
-.listradio-wrap .nf-field-element #nf-label-class-field-13-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-5-0:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-13-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-5-1:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-14-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-6-0:before {
   background: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-14-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-6-1:before {
   background: #EA581C;
 }
 
 /* cercle style */
-.listradio-wrap .nf-field-element #nf-label-class-field-13-0:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-5-0:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-13-1:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-5-1:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-14-0:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-6-0:after {
   border-color: #EA581C;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-14-1:after {
+.listradio-wrap .nf-field-element #nf-label-class-field-6-1:after {
   border-color: #EA581C;
 }
 
 /* validation*/
-#nf-field-8-wrap .nf-field-element:after {
+#nf-field-7-wrap .nf-field-element:after {
   left: 560px;
   top: 7px;
 }
 
-#nf-field-18-wrap .nf-field-element:after {
+#nf-field-8-wrap .nf-field-element:after {
   left: 560px;
   top: 7px;
 }
@@ -1442,65 +1426,20 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* etoile + nom*/
-#nf-label-field-8 {
-  display: flex;
-  flex-direction: row;
-  color: white;
-}
-
-/*section prenom*/
-#nf-field-18 {
-  border-radius: 35px;
-  width: 531px;
-  height: 60px;
-  border-color: white;
-}
-
-/* etoile + prenom*/
-#nf-label-field-18 {
-  display: flex;
-  flex-direction: row;
-  color: white;
-}
-
-/*section mail*/
-#nf-field-9 {
-  border-radius: 35px;
-  width: 531px;
-  height: 60px;
-  border-color: white;
-}
-
-/* etoile + mail*/
-#nf-label-field-9 {
-  display: flex;
-  flex-direction: row;
-  color: white;
-}
-
-/*section numero*/
-#nf-field-10 {
-  border-radius: 35px;
-  width: 531px;
-  height: 60px;
-  border-color: white;
-}
-
-/* etoile + numero*/
-#nf-label-field-10 {
-  display: flex;
-  flex-direction: row;
-  color: white;
+.nf-field-label {
+  display: flex !important;
+  flex-direction: row !important;
+  color: white !important;
 }
 
 /* button*/
-#nf-field-17 {
-  display: flex;
-  justify-content: center;
-  border-radius: 35px;
-  width: 168px;
-  height: 59px;
-  background: #EA581C;
+input[type=button] {
+  display: flex !important;
+  justify-content: center !important;
+  border-radius: 35px !important;
+  width: 168px !important;
+  height: 59px !important;
+  background: #EA581C !important;
 }
 
 .nf-form-fields-required {
@@ -1508,7 +1447,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /* conf */
-#nf-label-class-field-13-0 {
+#nf-label-class-field-5-0 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1518,34 +1457,34 @@ div .nf-field-element :nth-child(1) {
   padding-top: 18px;
 }
 
-#nf-field-13-wrap .nf-field-element label:after {
+#nf-field-5-wrap .nf-field-element label:after {
   top: 1.05em;
   left: 24px;
 }
 
 /* petit round quand on selectionne*/
-.listradio-wrap .nf-field-element #nf-label-class-field-13-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-5-0:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-13-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-5-1:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-14-0:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-6-0:before {
   left: 28px;
   top: 1.26em;
 }
 
-.listradio-wrap .nf-field-element #nf-label-class-field-14-1:before {
+.listradio-wrap .nf-field-element #nf-label-class-field-6-1:before {
   left: 28px;
   top: 1.26em;
 }
 
 /* hacka*/
-#nf-label-class-field-13-1 {
+#nf-label-class-field-5-1 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1556,7 +1495,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /*étudiant*/
-#nf-label-class-field-14-0 {
+#nf-label-class-field-6-0 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1567,7 +1506,7 @@ div .nf-field-element :nth-child(1) {
 }
 
 /*professionel*/
-#nf-label-class-field-14-1 {
+#nf-label-class-field-6-1 {
   border-radius: 35px;
   background: white;
   width: 256px;
@@ -1577,12 +1516,12 @@ div .nf-field-element :nth-child(1) {
   padding-top: 18px;
 }
 
-#nf-field-14-wrap .nf-field-element label:after {
+#nf-field-6-wrap .nf-field-element label:after {
   top: 1.05em;
   left: 24px;
 }
 
-#nf-field-13-wrap {
+#nf-field-5-wrap {
   padding-left: 18px;
 }
 
