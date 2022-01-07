@@ -130,7 +130,8 @@ input[type="button"]{
     border-radius: 35px !important;
     width: 168px !important;
     height: 59px !important;
-    background: #EA581C !important;
+    background: linear-gradient(
+140deg, #EA581D, #F8A815) !important;
 }
 
 .nf-form-fields-required{
@@ -209,13 +210,10 @@ input[type="button"]{
     padding-left: 18px;
 }
 
-#nf-field-5-container{
+#nf-field-13-container{
     width: 80%;
 }
-#nf-field-6-container{
-    width: 80%;
-}
-#nf-field-7-container{
+#nf-field-14-container{
     width: 80%;
 }
 #nf-field-8-container{
@@ -227,7 +225,10 @@ input[type="button"]{
 #nf-field-10-container{
     width: 80%;
 }
-#nf-field-11-container{
+#nf-field-18-container{
+    width: 80%;
+}
+#nf-field-17-container{
     width: 80%;
 }
 .nf-form-content :nth-child(1){
