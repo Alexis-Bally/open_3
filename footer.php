@@ -22,7 +22,20 @@
 				<div class="footer_logo">
 					<img src="<?php echo get_template_directory_uri();?>/img/logo-open3-blanc.png" alt="Logo Open3 blanc">
 				</div>
-				<div class="footer_infos"></div>
+				<div class="footer_infos">
+					<div class="adress">
+						<img src="<?php echo get_template_directory_uri();?>/img/lieu.png" alt="Icone lieu">
+						<p>47 boulevard de Pesaro Nanterre 92000</p>
+					</div>
+					<div class="mail">
+						<img src="<?php echo get_template_directory_uri();?>/img/mail.png" alt="Icone mail">
+						<p>iim@devinci.fr</p>
+					</div>
+					<div class="phone">
+						<img src="<?php echo get_template_directory_uri();?>/img/telephone.png" alt="Icone telephone">
+						<p>01 81 00 30 30</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer><!-- #colophon -->
