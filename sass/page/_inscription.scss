@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    background: #1D1D39;
+  
     color: white;
     font-weight: 600;
     font-size: 30px;
@@ -16,11 +16,17 @@
 div nf-section .nf-before-form-content{
     display: none;
 }
+#nf-form-2-cont{
+    background-image: url(img/bg_inscription.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 div form :nth-child(1) {
     display: flex;
     flex-direction: column;
-    background: #1D1D39;
+ 
     
 }
 
