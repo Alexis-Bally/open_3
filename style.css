@@ -1274,6 +1274,11 @@ div .conf_speakers_solo_line {
   display: flex;
   justify-content: center;
   padding-top: 60px;
+  background: #1D1D39;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 60px;
 }
 
 #nf-field-9-container {
@@ -1316,6 +1321,7 @@ div .nf-field-element :nth-child(1) {
   display: flex;
   flex-direction: row;
   color: white;
+  padding-left: 30px;
 }
 
 /* etoile je suis... */
@@ -1323,6 +1329,7 @@ div .nf-field-element :nth-child(1) {
   display: flex;
   flex-direction: row;
   color: white;
+  padding-left: 30px;
 }
 
 /* section nom */
@@ -1461,10 +1468,6 @@ div .nf-field-element :nth-child(1) {
   background: #EA581C;
 }
 
-#nf-field-11-wrap {
-  padding-left: 190px;
-}
-
 .nf-form-fields-required {
   display: none !important;
 }
@@ -1546,6 +1549,38 @@ div .nf-field-element :nth-child(1) {
 
 #nf-field-5-wrap {
   padding-left: 18px;
+}
+
+#nf-field-5-container {
+  width: 80%;
+}
+
+#nf-field-6-container {
+  width: 80%;
+}
+
+#nf-field-7-container {
+  width: 80%;
+}
+
+#nf-field-8-container {
+  width: 80%;
+}
+
+#nf-field-9-container {
+  width: 80%;
+}
+
+#nf-field-10-container {
+  width: 80%;
+}
+
+#nf-field-11-container {
+  width: 80%;
+}
+
+.nf-form-content :nth-child(1) {
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
